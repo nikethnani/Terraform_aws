@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  db_host: "https://database.example.com"
+  default_user_status: "suspended"
+  max_invoice_date: "2022-12-31"
+
+
+  apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+binaryData:
+  demo: ZXhhbXBsZQo=
